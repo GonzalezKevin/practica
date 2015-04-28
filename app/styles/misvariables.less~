@@ -1,0 +1,131 @@
+//== FUENTES
+//
+@font-family-serif:       "Indie Flower", "Times New Roman", Times, serif;
+
+@font-family-base:        @font-family-serif;
+
+@font-size-base:          20px;
+
+
+//== NAVBAR
+
+@navbar-inverse-color:                      lighten(@gray-light, 15%);
+@navbar-inverse-bg:                         orange;
+@navbar-inverse-border:                     darken(@navbar-inverse-bg, 10%);
+
+@navbar-inverse-link-color:                 black;
+@navbar-inverse-link-hover-color:           #fff;
+@navbar-inverse-link-hover-bg:              darken(@navbar-inverse-bg, 15%);
+
+@dropdown-bg:                    orange;
+@dropdown-link-hover-bg:         darken(@navbar-inverse-bg, 15%);
+
+
+// == BODY
+
+//** Background color for `<body>`.
+@body-bg:               #60819f;
+//** Global text color on `<body>`.
+@text-color:            #fff;
+
+// == COLOR PRIMARY
+
+@brand-primary:         darken(orange, 6.5%); 
+
+
+// == CSS
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #ccc;
+    .social-icons { 
+        background: url('../img/sprites.png') no-repeat; 
+        list-style:none;float:left;
+    }
+    .digg { 
+        width: 72px; height: 72px; 
+        background-position: 0 0; 
+    }
+    .dribbble { 
+        width: 72px; 
+        height: 72px; 
+        background-position: 0 -73px; 
+    }
+    .email { 
+        width: 72px; 
+        height: 72px; 
+        background-position: 0 -146px; 
+    }
+    .facebook { 
+        width: 72px; 
+        height: 72px; 
+        background-position: 0 -219px; 
+    }
+    .flickr { 
+        width: 72px; 
+        height: 72px; 
+        background-position: 0 -292px; 
+    }
+    .forrst { 
+        width: 72px; 
+        height: 72px; 
+        background-position: 0 -365px; 
+    }
+    .googleplus { 
+        width: 72px; 
+        height: 72px; 
+        background-position: 0 -438px; 
+    }
+    .linkedin { 
+        width: 72px; 
+        height: 72px; 
+        background-position: 0 -511px; 
+    }
+    .pinterest { 
+        width: 72px; 
+        height: 72px; 
+        background-position: 0 -584px; 
+    }
+    .rss { 
+        width: 72px; 
+        height: 72px; 
+        background-position: 0 -657px; 
+    }
+    .share { 
+        width: 72px; 
+        height: 72px; 
+        background-position: 0 -730px; 
+    }
+    .skype { 
+        width: 72px; 
+        height: 72px; 
+        background-position: 0 -803px; 
+    }
+    .tumblr { 
+        width: 72px; 
+        height: 72px; 
+        background-position: 0 -876px; 
+    }
+    .twitter { 
+        width: 72px; 
+        height: 72px; 
+        background-position: 0 -949px; 
+    }
+    .youtube { 
+        width: 72px; 
+        height: 72px; 
+        background-position: 0 -1022px; 
+    }
+}
